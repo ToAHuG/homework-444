@@ -79,6 +79,7 @@
             this.btnPlus.TabIndex = 3;
             this.btnPlus.Text = "*";
             this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnThree
             // 
@@ -100,6 +101,7 @@
             this.btnMinus.TabIndex = 5;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnNine
             // 
@@ -132,6 +134,7 @@
             this.btnDivide.TabIndex = 8;
             this.btnDivide.Text = "/";
             this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
             // 
             // btnEqual
             // 
@@ -142,6 +145,7 @@
             this.btnEqual.TabIndex = 9;
             this.btnEqual.Text = "=";
             this.btnEqual.UseVisualStyleBackColor = true;
+            this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click);
             // 
             // btnSix
             // 
@@ -185,6 +189,7 @@
             this.btnDot.TabIndex = 13;
             this.btnDot.Text = ".";
             this.btnDot.UseVisualStyleBackColor = true;
+            this.btnDot.Click += new System.EventHandler(this.btnDot_Click);
             // 
             // btnOne
             // 
@@ -228,6 +233,7 @@
             this.btnAdd.TabIndex = 17;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtNumber
             // 
